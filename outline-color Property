@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  border: 1px solid red;
+  outline: 5px dotted green;
+}
+
+div.a {
+  border: 1px solid red;
+  outline: 2px dashed blue;
+}
+</style>
+</head>
+<body>
+
+<h1>The outline Property</h1>
+
+<h2>A Heading with a 5 pixels green dotted outline</h2>
+
+<div class="a">A div element with a 2 pixels blue dashed outline. Also notice that the outline is outside of any border.</div>
+
+</body>
+</html>
+
+The outline Property
+A Heading with a 5 pixels green dotted outline
+A div element with a 2 pixels blue dashed outline. Also notice that the outline is outside of any border.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  outline-style: solid;
+  outline-color: coral;
+}
+
+div.a {
+  outline-style: solid;
+  outline-color: coral;
+}
+
+div.b {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: coral;
+}
+</style>
+</head>
+<body>
+
+<h1>The outline-color Property</h1>
+
+<h2>A heading with a colored outline</h2>
+
+<div class="a">The outline-color can be specified with a color name.</div>
+<br>
+
+<div class="b">Notice that the outline is outside of any border.</div>
+
+<p><strong>Note:</strong> The outline-color property does not work if it is used alone. Use the outline-style property to set the outline first.</p>
+</body>
+</html>
+
+The outline-color Property
+A heading with a colored outline
+The outline-color can be specified with a color name.
+
+Notice that the outline is outside of any border.
+Note: The outline-color property does not work if it is used alone. Use the outline-style property to set the outline first.
